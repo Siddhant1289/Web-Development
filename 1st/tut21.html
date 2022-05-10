@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <title>Alignment</title>
+    <style>
+        *{
+           box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+        }
+
+        .container{
+            width: 900px;
+            border: 5px groove purple;
+            border-radius: 5px;
+            margin: auto;
+            background: rgb(219, 170, 135);
+        }
+
+        .item{
+            border: 5px groove grey;
+            border-radius: 5px;
+            margin: 12px 5px;
+            padding: 12px 5px;
+            background: rgb(233, 197, 197);
+        }
+
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+
+        #computer{
+            float: right;
+            width: 48%;
+        }
+
+        #stationary{
+            /* float: left; */
+            width: auto;
+            clear: both;
+        }
+
+        #glasses{
+            
+        }
+
+        p{
+            text-align: justify;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome To My Store</h1>
+        <div id="fruit" class="item">
+            <h1>Fruits</h1>
+            <p id="fruitpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nostrum blanditiis dolor velit esse, sequi cum eligendi, in dolores consequuntur enim qui maxime amet cumque architecto neque distinctio minima ducimus?Lorem ipsum dolor sit amet consectetur adipisicing elit. A ut doloribus unde, maiores impedit totam rem exercitationem accusamus labore quam molestiae eum. Modi dolor debitis similique laborum pariatur nostrum numquam officia quod explicabo voluptatibus.</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h1>Computer</h1>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor sapiente, optio nostrum laboriosam perspiciatis laborum modi possimus illum temporibus totam! Qui, autem ipsam! Asperiores, eos id ullam officiis placeat itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur voluptatem quae earum inventore optio voluptate sapiente amet asperiores numquam. Alias repudiandae, ut placeat itaque molestiae eum perferendis, laborum quaerat fugit voluptatum veniam? Modi!</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h1>Stationary</h1>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quae! Neque quaerat nisi, laborum saepe nulla ipsum? Asperiores placeat dolorem suscipit nisi impedit quis! Itaque officiis placeat dolorem veniam doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore beatae velit mollitia qui ex sit molestiae ratione magni quo eaque!</p>
+        </div>
+
+        <div id="glasses" class="item">
+            <h1>Glasses</h1>
+            <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quae! Neque quaerat nisi, laborum saepe nulla ipsum? Asperiores placeat dolorem suscipit nisi impedit quis! Itaque officiis placeat dolorem veniam doloribus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, debitis. Delectus, officia optio quisquam eius explicabo aspernatur. Perferendis dolor sunt voluptates impedit distinctio culpa non aperiam odio. Veniam, eveniet ad?</p>
+        </div>
+    </div>
+</body>
+</html>

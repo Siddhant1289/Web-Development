@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector  */
+        /* This will make every paragraph red */
+        p{
+            border: 5px solid magenta;
+            color: red;
+        }
+
+        /* id selector  */
+        /* This Will MAke element with perticular id element green  */
+        #greenElement{
+            color: green;
+        }
+
+        /* Class Selector  */
+        /* This will make perticular class element pink  */
+        .yellow{
+            color: pink;
+        }
+        .bgColor{
+            background-color: goldenrod;
+        }
+
+        /* grouping selector  */
+        span,footer{
+            background-color: springgreen;
+        }
+    </style>
+</head>
+<body>
+    <h2>Css Selectors</h2>
+    <p class="bgColor">This Is A simple paragraph to demonstrate css selectors</p>
+    <!-- id selected  -->
+    <p id="greenElement" class=bgColor>This Is Another simple paragraph to demonstrate css selectors</p>
+    <div>
+        <!-- Class selected  -->
+        <p class="yellow bgColor">This Is yet Another simple paragraph to demonstrate css selectors</p>
+        <span>
+            this is span
+        </span>
+    </div>
+    <footer>This Is Footer</footer>
+</body>
+</html>

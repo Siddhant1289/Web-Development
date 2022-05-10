@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+            /* css positions */
+            /* position: static(default),absolute,relative,fixed,sticky */
+        .container{
+            border: 10px groove black;
+            background-color: rgb(181, 206, 144);
+            /* height: 5000px; */
+        }
+        .box{
+            display: inline-block;
+            border: 10px groove red;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+        }
+        #box1{
+
+        }
+
+        #box2{
+
+        }
+
+        #box3{
+            /* relative: relative to its normal position; */
+            /* position: relative; */
+
+            /* absoslute: relative to the position of its first parent's position; */
+            /* position: absolute; */
+
+            /* position: static;
+            top: 40px;
+            left: 40px; */
+
+            /* position fixed :position relative to the browser window */
+            /* position: fixed;
+            right: 4px; */
+
+            position: sticky;
+            top: 3px;
+        }
+
+        #box4{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">Chat With Us</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+</html>
